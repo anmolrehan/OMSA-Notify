@@ -182,7 +182,7 @@ Function ProcessAlert($alert) {
 
 
 if($eventType) {
-    ProcessAlert $event;
+    ProcessAlert $eventType;
 }
 else {
     if($Setup) {
